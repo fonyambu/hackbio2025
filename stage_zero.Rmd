@@ -1,0 +1,58 @@
+---
+title: "stage-zero_task"
+author: "Frank Onyambu"
+date: "2025-02-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+This is an R Markdown document as part of my hackbio internship 2025 stage zero task 
+
+
+## create a vector with names for team members
+```{r}
+names <- c("Frank", "Edwin", "Ruskin", "Brigid", "Dona")
+```
+## create a vector with team members for slack usernames
+```{r}
+slack_username<-c("frankgekara", "edwinnyambati", "ruskingichana", "brigidmoraa", "donakerubo")
+```
+## create a vector with team members email addresses
+```{r}
+email<-c("fg@yahoo.com", "en@aol.com", "rg@yahoo.com", "bm@gmail.com", "dk@yahoo.com")
+```
+## create a vector with members country of origin
+```{r}
+country<-c("Kenya", "Uganda", "South Africa", "Nigeria", "Chad")
+```
+## create a vector with their disciplines
+
+```{r}
+discipline<-c("Biochemistry", "Engineering", "Finance", "Medicine", "Education")
+```
+## create a vector with their preferred programming languages
+```{r}
+language<-c("python", "R", "java", "C++", "html")
+```
+## create a data frame with all vectors we creaetd above
+```{r}
+team<-data.frame (names, slack_username, country, discipline, language)
+```
+## display the resulting data frame
+```{r}
+print(team)
+```
+## linkedin profile link
+https://ke.linkedin.com/in/frank-g-onyambu-23a27187
+
+## github link 
+
+https://github.com/fonyambu/hackbio2025
+
+
+
+
